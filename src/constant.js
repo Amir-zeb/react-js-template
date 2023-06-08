@@ -21,3 +21,12 @@ export const theme = createTheme({
         },
     },
 });
+
+// # GLOBAL DATE FORMAT
+export const DATE_FORMAT='DD-MM-YYYY';
+// # GLOBAL DATE TIME FORMAT
+export const DATETIME_FORMAT='DD-MM-YYYY HH:mm A';
+// # SERVER DATE FORMAT
+export const DATE_SERVER_FORMAT='YYYY-MM-DD';
+// # ACCESS TOKEN KEY
+export const REACT_APP_TOKEN='@ACCESS_TOKEN';

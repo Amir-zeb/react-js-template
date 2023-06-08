@@ -1,5 +1,5 @@
-import Home from "./home/home";
-import Page404 from "./page-404";
+import Home from "./Home/Home";
+import Page404 from "./Page404";
 
 export {
     Home,

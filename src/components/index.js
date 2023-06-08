@@ -1,6 +1,6 @@
-import Loader from "./loader/loader";
-import SplashScreen from "./splash-screen/splash-screen";
-import Toast from "./toast/toast";
+import SplashScreen from "./SplashScreen/SplashScreen";
+import Toast from "./Toast/Toast";
+import Loader from "./Loader/Loader";
 
 export{
     Loader,

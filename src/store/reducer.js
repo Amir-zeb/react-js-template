@@ -1,44 +1,20 @@
 import { createSlice } from "@reduxjs/toolkit";
 import Utils from "../utils/utils";
 
+// {
+//   id: Utils.generateId(),
+//   message: 'success message',
+//   duration: 1500,
+//   type: ['success','warning','error','info','message'],
+// }
+
 export const reducer = createSlice({
   name: "appReducer",
   initialState: {
     user: null,
     isLogged: false,
     loader: false,
-    toast: [
-      {
-        id: Utils.generateId(),
-        message: 'success message',
-        duration: 1500,
-        type: 'success'
-      },
-      {
-        id: Utils.generateId(),
-        message: 'error message',
-        duration: 2500,
-        type: 'error'
-      },
-      {
-        id: Utils.generateId(),
-        message: 'info message',
-        duration: 3500,
-        type: 'info'
-      },
-      {
-        id: Utils.generateId(),
-        message: 'warning message',
-        duration: 4500,
-        type: 'warning'
-      },
-      {
-        id: Utils.generateId(),
-        message: 'message',
-        duration: 5000,
-        type: 'msg'
-      },
-    ],
+    toast: [],
   },
 
   reducers: {
